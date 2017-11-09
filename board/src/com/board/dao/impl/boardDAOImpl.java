@@ -6,8 +6,15 @@ import com.board.dao.BoardDAO;
 
 public class boardDAOImpl implements BoardDAO {
 
+
 	@Override
-	public void insertBoard(String board) throws SQLException {
+	public void insertBoard(int board) throws SQLException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteBoard(String board) throws SQLException {
 		// TODO Auto-generated method stub
 		
 	}
